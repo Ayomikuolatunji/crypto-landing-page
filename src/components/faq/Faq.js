@@ -15,7 +15,7 @@ export default function Faq() {
              }
         </div>
         {/* accordion question*/}
-         <main className="w-3/4 mx-auto">
+         <main className="w-11/12 mx-auto">
              {
                  AllData.faq.questions.map(question=>{
                      return(
