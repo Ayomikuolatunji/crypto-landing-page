@@ -3,7 +3,7 @@ import Header from './header/Header';
 import Home from './home/Home';
 import Mint from "./Mint/Mint";
 import Lunch from './lunch/Lunch';
-import Phases from "./phases/Phase";
+import Phase from "./phases/Phase";
 import Roadmap from './roadmap/Roadmap';
 import Mission from "./mission/Mission";
 import Team from "./team/Team";
@@ -21,7 +21,7 @@ export default function App() {
             <Home/>
             <Mint/>
             <Lunch/>
-            <Phases/>
+            <Phase/>
             <Roadmap/>
             <Minted/>
             <Mission/>

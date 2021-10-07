@@ -9,7 +9,7 @@ export default function Phase() {
               AllData.phases.map(step=>{
                   const {phaseImg,phase,title,text}=step;
                   return(
-                    <div className="flex sm:justify-between direction my-10 flex-wrap flex-col sm:flex-row justify-center items-center shadow-lg">
+                    <div className="flex sm:justify-between direction my-10 flex-wrap flex-col sm:flex-row justify-center items-center shadow-lg" key={title}>
                       <div className="phase-img">
                         <img src={phaseImg} alt="img" />
                       </div>

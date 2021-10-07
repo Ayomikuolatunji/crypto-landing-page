@@ -5,7 +5,7 @@ import "./mint.css"
 export default function Mint() {
     return (
         <main className="mint mt-32 mx-auto">
-            <div className="mint-wrapper flex-col sm:flex-row-reverse flex sm:justify-between justify-center items-center">
+            <div className="mint-wrapper flex-col  flex sm:justify-between justify-center items-center">
                 <div className="min-img">
                   <img src={AllData.mint.minImg} alt="AllData.Mint.Mintext.title" />
                 </div>

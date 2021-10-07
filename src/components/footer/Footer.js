@@ -11,10 +11,10 @@ export default function Footer(){
              </div>
              <ul className="navbar pt-4">
                   {
-                    AllData.footerBtn.map(nav=>{
+                    AllData.footerBtn.map((nav,index)=>{
                         const {title}=nav
                         return(
-                            <button key={title} className="header-btn md:px-2 md:py-2 rounded-xl mr-2 px-1 py-2 hover:bg-yellow-600 transition-all first">{title}</button>
+                            <button key={index} className="header-btn md:px-2 md:py-2 rounded-xl mr-2 px-1 py-2 hover:bg-yellow-600 transition-all first">{title}</button>
                         )
                     })
                   }
