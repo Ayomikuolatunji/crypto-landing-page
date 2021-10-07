@@ -1,0 +1,19 @@
+
+
+.header-btn{
+    background-color: brown;
+    color: #fff;
+    font-size: 15px;
+}
+.logo{
+    max-width: 250px;
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width:300px){
+    .logo{
+        max-width: 100%;
+        width: 100%;
+    }
+}

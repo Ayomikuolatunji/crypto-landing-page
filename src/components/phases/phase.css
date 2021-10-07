@@ -1,0 +1,22 @@
+.phase{
+    max-width:  80%;
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+.phase-img{
+    max-width: 250px;
+}
+
+.phase-content h1{
+   color: #ffbd17;
+   font-weight: bolder;
+   margin: 10px;
+   font-size: 23px;
+}
+.direction:nth-child(odd){
+    flex-direction: row-reverse;
+}
+@media (max-width:630px){
+    
+}

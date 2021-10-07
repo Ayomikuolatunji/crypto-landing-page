@@ -1,0 +1,17 @@
+.mint{
+    max-width:  80%;
+    width: 100%;
+}
+.min-img{
+    max-width: 250px;
+};
+
+.mint-content p{
+   line-height: 1.5;
+   font-weight: bold;
+};
+@media (max-width:500px){
+    .text-startmd{
+        text-align: start !important;
+    }
+};

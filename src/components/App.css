@@ -1,0 +1,15 @@
+body{
+    max-width: 1100px;
+    margin:0 auto 0 auto !important;
+    font-family: sans-serif;
+    width: 100%;
+    /* border: 2px solid white; */
+    line-height: 1.5;
+    width: 100%;
+    background-color: rgb(43, 18, 18);
+    color: #fff !important;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,button,div,main{
+    cursor: pointer;
+}
