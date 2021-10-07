@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-project url : https://main.dxa8b73xqq17k.amplifyapp.com/!#
+project url :
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
